@@ -84,6 +84,14 @@ the element.)*/
     margin-bottom: 10px;
 }
 
+.aboutImage
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
 .signUp
 {
     display: block;
