@@ -205,3 +205,14 @@ strong
     border:2px solid white;
 
 }
+
+.footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:30px;
+    background-color:#1F2937;
+    color: white;
+    font-size: 18px;
+}
