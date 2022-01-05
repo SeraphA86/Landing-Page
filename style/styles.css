@@ -44,3 +44,54 @@ the element.)*/
     font-size: 18px;
     text-decoration: none;
 }
+
+
+.aboutText h2
+{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.aboutText p
+{
+    font-size: 18px;
+}
+
+.about
+{
+    display: flex;
+    padding: 100px 160px;
+    justify-content: center;
+    gap:80px;
+    flex-wrap: wrap;
+    background-color: #1F2937;
+}
+
+.aboutText, .aboutImage
+{
+    flex:1 0 0;
+    color: white;
+
+}
+
+.aboutImage
+{
+    background-color: brown;
+}
+
+.aboutText h2
+{
+    margin-bottom: 10px;
+}
+
+.signUp
+{
+    display: block;
+    color:white;
+    text-decoration: none;
+    padding: 15px 40px;
+    margin-top:20px;
+    width: max-content;
+    border-radius: 10px;
+    background-color: #3882F6;
+}
