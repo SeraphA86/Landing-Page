@@ -89,6 +89,7 @@ the element.)*/
     display: block;
     color:white;
     text-decoration: none;
+    font-weight: bold;
     padding: 15px 40px;
     margin-top:20px;
     width: max-content;
@@ -172,4 +173,35 @@ strong
     font-style: normal;
     font-weight: bold;
     margin-left:85%;
+}
+
+.action
+{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:80px 160px;
+    padding:40px;
+    border-radius: 10px;
+    background-color:#3882F6;
+}
+
+.actionText h2
+{
+    font-weight: bold;
+    color: white;
+}
+
+.actionText  p
+{
+    color: white;
+    font-size: 18px;
+}
+
+.action  .signUp
+{
+    border:2px solid white;
+
 }
