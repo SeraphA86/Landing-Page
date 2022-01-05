@@ -1,0 +1,11 @@
+/*Disabling initial browser styles.
+(The selector "*" applies the parameters set below to all elements.
+The "border-sizing : border-box;" parameter tells the browser to take into account any 
+borders and internal margins in the values that are specified in the width and height of 
+the element.)*/
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
