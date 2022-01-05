@@ -142,3 +142,34 @@ the element.)*/
     font-size:18px;
 }
 
+.quote
+{
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:50px;
+    flex-wrap: wrap;
+}
+
+.quote p
+{
+    font-size:32px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quoteContainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    width:700px;
+}
+
+strong
+{
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    margin-left:85%;
+}
