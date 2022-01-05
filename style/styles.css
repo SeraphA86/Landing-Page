@@ -1,4 +1,4 @@
-/*Disabling initial browser styles.
+/*Disabling initial browser styles and and installing fonts.
 (The selector "*" applies the parameters set below to all elements.
 The "border-sizing : border-box;" parameter tells the browser to take into account any 
 borders and internal margins in the values that are specified in the width and height of 
@@ -8,4 +8,39 @@ the element.)*/
     margin:0;
     padding:0;
     box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+.header
+{
+    background-color: #1F2937;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+    padding: 30px 160px 40px 160px;
+}
+
+.headerLogo, .headerLink
+{
+    color:white;
+}
+
+.headerLogo
+{
+    font-size: 24px;  
+    font-weight: bolder;  
+}
+
+.linkContainer
+{
+    display: flex;
+    gap:30px;
+}
+
+.headerLink
+{
+    font-size: 18px;
+    text-decoration: none;
 }
